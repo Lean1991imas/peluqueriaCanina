@@ -353,6 +353,7 @@ Mascota masco;
     // End of variables declaration//GEN-END:variables
 
     private void mostrarMensaje(String edicion_realizada_correctamente, String info, String edicion_correcta) {
+        String tipo = "";
         
     JOptionPane optionPane = new JOptionPane("titulo");
       if (tipo.equals("info")) { 
